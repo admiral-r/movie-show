@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'vietnamBold';
+    src: url('../fonts/VietnamBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'vietnamLight';
+    src: url('../fonts/VietnamLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'vietnamThin';
+    src: url('../fonts/VietnamThin.ttf') format('truetype');
+}
+
+body,
+html,
+#__layout,
+#__nuxt {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: vietnamLight;
+}
+
+.pointer {
+    cursor: pointer;
+}
